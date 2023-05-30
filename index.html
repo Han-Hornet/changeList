@@ -1,0 +1,42 @@
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./css/bootstrap.css">
+<link rel="stylesheet" href="./css/index.css">
+<script src="./js/index.js"></script>
+    
+    
+    
+    <main>
+        <section class="py-3 container">
+            <div id="down_list_div" class="row py-lg-2 border border-2 rounded">
+                <div class="py-3">
+                    <ul class="down_list nav nav-tabs" id="down_list" role="tablist">
+                        <li class="nav-item d-dp">
+                            <a class="nav-link active border-secondary" id="down_list_detail" data-toggle="tab" href="#" role="tab" aria-controls="detail"
+                                aria-selected="true">物品詳細資訊</a>
+                        </li>
+                        <li class="nav-item d-dp">
+                            <a class="nav-link border-secondary" id="down_list_qa" data-toggle="tab" href="#tabs1-2" role="tab" aria-controls="qa"
+                                aria-selected="false">問與答</a>
+                        </li>
+                        <li class="nav-item d-dp">
+                            <a class="nav-link border-secondary" id="down_list_wc" data-toggle="tab" href="#" role="tab" aria-controls="wc"
+                                aria-selected="false">想交換此物品的對象</a>
+                        </li>
+                    </ul>
+                    <div class="panel-container" style="">	
+
+                        <div id="tabs1-1" class="d-show" style="">
+                            這是第一區
+                            
+                        </div>    
+                        <div id="tabs1-2" class="d-none d-show">
+                            這是第二區		
+                        </div>   
+                        <div id="tabs1-3" class="d-none d-show">
+                            這是第三區
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main>

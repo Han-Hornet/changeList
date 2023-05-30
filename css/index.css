@@ -1,0 +1,33 @@
+/* 商品資料區 下半 */
+
+.down_list li{
+    font-size: 1.1rem;
+}
+.down_list li .active{
+    background-color: rgb(123, 164, 226) !important;
+    color: white !important;
+}
+
+.panel-container{
+    margin-top: 1%;
+    border-radius: 2%;
+    font-size: 1.1rem;
+    
+}
+/* 物品詳細資訊 待調整 */
+#down_list_div{
+    font-weight: 600;
+    min-height: 20rem;
+}
+
+
+
+
+.d-none{
+    display: none;
+}
+
+
+
+
+
